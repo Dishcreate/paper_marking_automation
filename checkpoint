@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\OMRDeploy\\test\\OMR\\opticalmark-0.0001-2conv-basic.model"
+all_model_checkpoint_paths: "D:\\OMRDeploy\\test\\OMR\\opticalmark-0.0001-2conv-basic.model"

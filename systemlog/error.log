@@ -1,0 +1,265 @@
+ERROR:root:(pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_Transaction.StudentPaperResult'. Cannot insert duplicate key in object 'Transaction.StudentPaperResult'. The duplicate key value is (ST201700001263, 384). (2627) (SQLExecDirectW); [23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The statement has been terminated. (3621)") [SQL: 'INSERT INTO [Transaction].[StudentPaperResult] ([StudentId], [PaperId], [MarkingSheet], [IsAbsent], [IsValidReason], [CreatedOn], [CreatedById], [UpdatedOn], [UpdatedById]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)'] [parameters: ('ST201700001263', 384, None, False, False, datetime.datetime(2018, 5, 18, 11, 3, 19, 570371), 42, datetime.datetime(2018, 5, 18, 11, 3, 19, 570371), 42)] (Background on this error at: http://sqlalche.me/e/gkpj)
+ERROR:root:(pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_Transaction.StudentPaperResult'. Cannot insert duplicate key in object 'Transaction.StudentPaperResult'. The duplicate key value is (ST201700001263, 384). (2627) (SQLExecDirectW); [23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The statement has been terminated. (3621)") [SQL: 'INSERT INTO [Transaction].[StudentPaperResult] ([StudentId], [PaperId], [MarkingSheet], [IsAbsent], [IsValidReason], [CreatedOn], [CreatedById], [UpdatedOn], [UpdatedById]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)'] [parameters: ('ST201700001263', 384, None, False, False, datetime.datetime(2018, 5, 18, 11, 12, 56, 563886), 42, datetime.datetime(2018, 5, 18, 11, 12, 56, 563886), 42)] (Background on this error at: http://sqlalche.me/e/gkpj)
+ERROR:root:(pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_Transaction.StudentQuestionResult'. Cannot insert duplicate key in object 'Transaction.StudentQuestionResult'. The duplicate key value is (ST201700001262, 3640). (2627) (SQLParamData); [23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The statement has been terminated. (3621)") [SQL: 'INSERT INTO [Transaction].[StudentQuestionResult] ([StudentId], [QuestionId], [GainedMarks], [CreatedOn], [CreatedById], [UpdatedOn], [UpdatedById], [Answers], [IsCorrect], [QuestionMainType]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'] [parameters: (('ST201700001262', 3640, 0, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, '3', False, 2), ('ST201700001262', 3641, 0, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, '4', False, 2), ('ST201700001262', 3642, 0, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, '2', False, 2), ('ST201700001262', 3643, 0, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, '1', False, 2), ('ST201700001262', 3644, 2, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, '3', True, 2), ('ST201700001262', 3645, 0, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, '3', False, 2), ('ST201700001262', 3646, 0, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, '4', False, 2), ('ST201700001262', 3647, 0, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, '2', False, 2)  ... displaying 10 of 25 total bound parameter sets ...  ('ST201700001262', 3663, 0, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, '1', False, 2), ('ST201700001262', 3664, 0, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, datetime.datetime(2018, 5, 18, 12, 26, 38, 503079), 42, '2', False, 2))] (Background on this error at: http://sqlalche.me/e/gkpj)
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\lib\site-packages\tflearn\initializations.py:119: UniformUnitScaling.__init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\lib\site-packages\tflearn\objectives.py:66: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+ERROR:root:(pyodbc.IntegrityError) ('23000', '[23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Transaction.StudentPaperResult_Account.User_CreatedById". The conflict occurred in database "MontFortDB", table "Account.User", column \'Id\'. (547) (SQLExecDirectW); [23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The statement has been terminated. (3621)') [SQL: 'INSERT INTO [Transaction].[StudentPaperResult] ([StudentId], [PaperId], [MarkingSheet], [IsAbsent], [IsValidReason], [CreatedOn], [CreatedById], [UpdatedOn], [UpdatedById]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)'] [parameters: ('ST201800000010', 4, None, False, False, datetime.datetime(2018, 5, 31, 10, 14, 26, 591149), 42, datetime.datetime(2018, 5, 31, 10, 14, 26, 591149), 42)] (Background on this error at: http://sqlalche.me/e/gkpj)
+ERROR:root:(pyodbc.IntegrityError) ('23000', '[23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Transaction.StudentPaperResult_Account.User_CreatedById". The conflict occurred in database "MontFortDB", table "Account.User", column \'Id\'. (547) (SQLExecDirectW); [23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The statement has been terminated. (3621)') [SQL: 'INSERT INTO [Transaction].[StudentPaperResult] ([StudentId], [PaperId], [MarkingSheet], [IsAbsent], [IsValidReason], [CreatedOn], [CreatedById], [UpdatedOn], [UpdatedById]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)'] [parameters: ('ST201800000010', 4, None, False, False, datetime.datetime(2018, 5, 31, 10, 23, 59, 955777), 42, datetime.datetime(2018, 5, 31, 10, 23, 59, 955777), 42)] (Background on this error at: http://sqlalche.me/e/gkpj)
+ERROR:root:(pyodbc.IntegrityError) ('23000', '[23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Transaction.StudentPaperResult_Account.User_CreatedById". The conflict occurred in database "MontFortDB", table "Account.User", column \'Id\'. (547) (SQLExecDirectW); [23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The statement has been terminated. (3621)') [SQL: 'INSERT INTO [Transaction].[StudentPaperResult] ([StudentId], [PaperId], [MarkingSheet], [IsAbsent], [IsValidReason], [CreatedOn], [CreatedById], [UpdatedOn], [UpdatedById]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)'] [parameters: ('ST201800000010', 4, None, False, False, datetime.datetime(2018, 5, 31, 10, 36, 14, 110852), 42, datetime.datetime(2018, 5, 31, 10, 36, 14, 110852), 42)] (Background on this error at: http://sqlalche.me/e/gkpj)
+ERROR:root:(pyodbc.IntegrityError) ('23000', '[23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Transaction.StudentPaperResult_Account.User_CreatedById". The conflict occurred in database "MontFortDB", table "Account.User", column \'Id\'. (547) (SQLExecDirectW); [23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The statement has been terminated. (3621)') [SQL: 'INSERT INTO [Transaction].[StudentPaperResult] ([StudentId], [PaperId], [MarkingSheet], [IsAbsent], [IsValidReason], [CreatedOn], [CreatedById], [UpdatedOn], [UpdatedById]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)'] [parameters: ('ST201800000233', 23, None, False, False, datetime.datetime(2018, 8, 21, 16, 25, 37, 334468), 42, datetime.datetime(2018, 8, 21, 16, 25, 37, 334468), 42)] (Background on this error at: http://sqlalche.me/e/gkpj)
+ERROR:root:(pyodbc.IntegrityError) ('23000', '[23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Transaction.StudentPaperResult_Account.User_CreatedById". The conflict occurred in database "MontFortDB", table "Account.User", column \'Id\'. (547) (SQLExecDirectW); [23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The statement has been terminated. (3621)') [SQL: 'INSERT INTO [Transaction].[StudentPaperResult] ([StudentId], [PaperId], [MarkingSheet], [IsAbsent], [IsValidReason], [CreatedOn], [CreatedById], [UpdatedOn], [UpdatedById]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)'] [parameters: ('ST201800000243', 23, None, False, False, datetime.datetime(2018, 8, 21, 17, 2, 31, 251794), 42, datetime.datetime(2018, 8, 21, 17, 2, 31, 251794), 42)] (Background on this error at: http://sqlalche.me/e/gkpj)
+ERROR:root:(pyodbc.IntegrityError) ('23000', '[23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Transaction.StudentPaperResult_Account.User_CreatedById". The conflict occurred in database "MontFortDB", table "Account.User", column \'Id\'. (547) (SQLExecDirectW); [23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The statement has been terminated. (3621)') [SQL: 'INSERT INTO [Transaction].[StudentPaperResult] ([StudentId], [PaperId], [MarkingSheet], [IsAbsent], [IsValidReason], [CreatedOn], [CreatedById], [UpdatedOn], [UpdatedById]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)'] [parameters: ('ST201800000233', 23, None, False, False, datetime.datetime(2018, 8, 21, 17, 19, 53, 3023), 42, datetime.datetime(2018, 8, 21, 17, 19, 53, 3023), 42)] (Background on this error at: http://sqlalche.me/e/gkpj)
+ERROR:root:(pyodbc.IntegrityError) ('23000', '[23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Transaction.StudentPaperResult_Account.User_CreatedById". The conflict occurred in database "MontFortDB", table "Account.User", column \'Id\'. (547) (SQLExecDirectW); [23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The statement has been terminated. (3621)') [SQL: 'INSERT INTO [Transaction].[StudentPaperResult] ([StudentId], [PaperId], [MarkingSheet], [IsAbsent], [IsValidReason], [CreatedOn], [CreatedById], [UpdatedOn], [UpdatedById]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)'] [parameters: ('ST201800000233', 23, None, False, False, datetime.datetime(2018, 8, 21, 17, 27, 51, 647593), 42, datetime.datetime(2018, 8, 21, 17, 27, 51, 647593), 42)] (Background on this error at: http://sqlalche.me/e/gkpj)
+ERROR:root:(pyodbc.IntegrityError) ('23000', '[23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Transaction.StudentPaperResult_Account.User_CreatedById". The conflict occurred in database "MontFortDB", table "Account.User", column \'Id\'. (547) (SQLExecDirectW); [23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The statement has been terminated. (3621)') [SQL: 'INSERT INTO [Transaction].[StudentPaperResult] ([StudentId], [PaperId], [MarkingSheet], [IsAbsent], [IsValidReason], [CreatedOn], [CreatedById], [UpdatedOn], [UpdatedById]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)'] [parameters: ('ST201800000233', 23, None, False, False, datetime.datetime(2018, 8, 21, 17, 29, 8, 908740), 42, datetime.datetime(2018, 8, 21, 17, 29, 8, 908740), 42)] (Background on this error at: http://sqlalche.me/e/gkpj)
+ERROR:root:(pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]Cannot insert the value NULL into column 'StudentId', table 'MontFortDB.Transaction.StudentQuestionResultBreakdown'; column does not allow nulls. INSERT fails. (515) (SQLExecDirectW); [23000] [Microsoft][SQL Server Native Client 11.0][SQL Server]The statement has been terminated. (3621)") [SQL: 'INSERT INTO [Transaction].[StudentQuestionResultBreakdown] ([StudentId], [QuestionId], [QuestionTopicId], [QuestionMainSkillId], [QuestionSubSkillId], [CreatedOn], [CreatedById], [UpdatedOn], [UpdatedById], [GainedMarks]) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'] [parameters: (None, None, None, None, None, None, None, None, None, 5.0, None, None, None, None, None, None, None, None, None, 5.0, None, None, None, None, None, None, None, None, None, 5.0, None, None, None, None, None, None, None, None, None, 5.0, None, None, None, None, None, None, None, None, None, 5.0, None, None, None, None, None, None, None, None, None, 5.0, None, None, None, None, None, None, None, None, None, 5.0, None, None, None, None, None, None, None, None, None, 5.0, None, None, None, None, None, None, None, None, None, 5.0, None, None, None, None, None, None, None, None, None, 5.0)] (Background on this error at: http://sqlalche.me/e/gkpj)
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:HY000
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:The SQL contains 0 parameter markers, but 10 parameters were supplied
+ERROR:root:28000@connection()
+ERROR:root:[28000] [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'. (18456)@connection()
+ERROR:root:[28000] [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'. (18456)@connection()

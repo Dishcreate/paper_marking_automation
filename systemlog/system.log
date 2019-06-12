@@ -1,0 +1,84 @@
+INFO:root:C:/Users/HP/Documents/images/img_new\20171002173435_00015.jpg-The image successfully send to scan process
+INFO:root:Data going to be update
+WARNING:tensorflow:From C:\Users\HP\AppData\Local\conda\conda\envs\tensorflow\lib\site-packages\tflearn\initializations.py:119: UniformUnitScaling.__init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+WARNING:tensorflow:From C:\Users\HP\AppData\Local\conda\conda\envs\tensorflow\lib\site-packages\tflearn\objectives.py:66: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+INFO:root:No different between update and existing result
+INFO:root:No different between update and existing result
+INFO:root:C:/Users/HP/Documents/images/img_new\20171002173435_00036.jpg-The image successfully send to scan process
+INFO:root:Data going to be update
+WARNING:tensorflow:From C:\Users\HP\AppData\Local\conda\conda\envs\tensorflow\lib\site-packages\tflearn\initializations.py:119: UniformUnitScaling.__init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+WARNING:tensorflow:From C:\Users\HP\AppData\Local\conda\conda\envs\tensorflow\lib\site-packages\tflearn\objectives.py:66: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+INFO:root:C:/Users/HP/Documents/images/img_new\20171002173435_00036.jpg-The image successfully send to scan process
+INFO:root:Data going to be update
+WARNING:tensorflow:From C:\Users\HP\AppData\Local\conda\conda\envs\tensorflow\lib\site-packages\tflearn\initializations.py:119: UniformUnitScaling.__init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+WARNING:tensorflow:From C:\Users\HP\AppData\Local\conda\conda\envs\tensorflow\lib\site-packages\tflearn\objectives.py:66: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+INFO:root:C:/Users/HP/Documents/images/img_new\201710021620_0008.jpg-The image successfully send to scan process
+INFO:root:Data going to be update
+WARNING:tensorflow:From C:\Users\HP\AppData\Local\conda\conda\envs\tensorflow\lib\site-packages\tflearn\initializations.py:119: UniformUnitScaling.__init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+WARNING:tensorflow:From C:\Users\HP\AppData\Local\conda\conda\envs\tensorflow\lib\site-packages\tflearn\objectives.py:66: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
+INFO:root:Data going to be update
+INFO:root:-1 row updated successfully.
